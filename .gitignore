@@ -1,0 +1,4 @@
+/db/hanami_oauth_development
+/db/hanami_oauth_test
+/public/assets*
+/tmp
