@@ -1,2 +1,3 @@
-# Configure your routes here
-# See: http://www.rubydoc.info/gems/hanami-router/#Usage
+get '/auth/failure', to: 'session#failure'
+get '/auth/signout', to: 'session#destroy'
+get "/auth/:provider/callback", to: "session#new"
